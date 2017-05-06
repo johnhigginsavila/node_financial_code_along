@@ -74,14 +74,11 @@ module.exports.connections = {
   *                                                                          *
   *                                                                          *
   ***************************************************************************/
-   //NodeFinancialPostgresqlServer: {
-   //  adapter: 'sails-postgresql',
-   //  host: '',
-   //  port: '',
-   //  user: '', // optional
-   //  password: '', // optional
-   //  database: '' //optional
-   //}
+   heroku_postgres: {
+     adapter: 'sails-postgresql',
+     url: process.env.DATABASE_URL, //Automaticall set by Heroku
+     ssl:false
+   }
 
 
   /***************************************************************************
