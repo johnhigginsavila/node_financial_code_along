@@ -74,14 +74,14 @@ module.exports.connections = {
   *                                                                          *
   *                                                                          *
   ***************************************************************************/
-   NodeFinancialPostgresqlServer: {
-     adapter: 'sails-postgresql',
-     host: '127.0.0.1',
-     port: 5432,
-     user: 'node_financial_admin', // optional
-     password: '1234', // optional
-     database: 'node_financial' //optional
-   }
+   //NodeFinancialPostgresqlServer: {
+   //  adapter: 'sails-postgresql',
+   //  host: '',
+   //  port: '',
+   //  user: '', // optional
+   //  password: '', // optional
+   //  database: '' //optional
+   //}
 
 
   /***************************************************************************
